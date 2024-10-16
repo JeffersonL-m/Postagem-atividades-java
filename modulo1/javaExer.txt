@@ -1,0 +1,16 @@
+1 - A função do compilador java se resume em pegar o código fonte, que foi feito pelo programador, transformar em bytecode (no qual para compilar no terminal é preciso escrever javac + nome do arquivo) que é uma espécie de formato intermediário na qual o JVC (java virtual machine) irá compilar novamente (através do compilamento java + nome do arquivo) e por fim executar o programa, possibilitando independência na compilação do código fonte.
+
+2 - Após a transformação do código fonte para formato Bytecode, torna-se possível a independência de plataformas porque justamente para executar quaisquer código em java é necessário compilar o programa novamente, a primeira vez para transformar em um tipo de dado único, bytecode, na qual poseriormente o JVC (java virtual machine) irá recompilar adequadamente para o tipo de máquina que se tem o java instalado, executando o programa.
+
+3 - Estruturas condicionais (if, else if, else) é uma espécie de estrutura em códigos para calcular/programar as possibilidades de terminado contexto na qual tem mais de uma opção de saída.
+ exemplo em pseudocódigo:
+
+Requisítos para participação em concursos:
+
+Se o candidato for do gênero feminino:
+-Verificar se sua idade é maior ou igual a 18.
+
+Se o candidato for do gênero masculino:
+-Verifcar se sua idade é maior ou igual a 18.
+-Verificar dispensa do exército.
+  
